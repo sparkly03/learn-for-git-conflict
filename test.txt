@@ -2,12 +2,9 @@ test xem thu no se chay nhu the nao nhi
 
 xich linh
 helllo world 
-<<<<<<< HEAD
 lmao
-=======
 lmao lmao lmao lmao
-<<<<<<< HEAD
+
 co cai con cac luons
 =======
->>>>>>> 0a5218254f2e908339e2cdf47cb9ebb4109c2d85
 >>>>>>> 71bb791f74c83596637faf0e78b52af3a1e49213
