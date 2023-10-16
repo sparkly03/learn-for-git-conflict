@@ -1,7 +1,4 @@
 test xem thu no se chay nhu the nao nhi
 
-<<<<<<< HEAD
 xich linh
-=======
 helllo world 
->>>>>>> 5a9f1720492965e879faa63c1afb45260aeef8cf
