@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-5.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-5.3.1-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="https://thethao247.vn/frontend/images/favicon.ico?v=2.3.1" type="image/x-icon">
+    <title>THỂ THAO 247 - Tin thể thao, tỷ số &amp; lịch thi đấu mới nhất</title>
+    
+</head>
+<body>
+
+    <!-- Phan header cua trang web -->
+    <header>
+        <div class="container">
+            <div class="top-header relative p-10-0">
+                <div class="d-flex">
+                    <div class="logo relative">
+                        <a href="https://thethao247.vn/" title="Thể thao 247">
+                            <img src="https://thethao247.vn/frontend/images/logo.svg?" alt="Thể thao 247">
+                        </a>
+                        <span class="date">Thứ tư, 17:00 27/09/2023</span>
+                    </div>
+
+                    <div class="logo-event">
+                        <a href="https://thethao247.vn/asiad" title="ASIAD 2023">
+                            <img src="https://thethao247.vn/frontend/events/asiad/img/asiad-logo.svg?v=2.3.1" width="75" height="75" style="height:60px; width:auto;" alt="ASIAD 2023">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="submenu_social relative">
+                    <ul class="submenu">
+                        <li>
+                            <a href="https://jobs.thethao247.vn/" target="_blank" rel="nofollow noopener">
+                                <i class="fa-solid fa-briefcase"></i>
+                                Tuyển dụng
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="/bao-gia.html" title="Quảng cáo">
+                                <i style="color: red;" class="fa-solid fa-rectangle-ad"></i>
+                                Quảng cáo
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav id="navbar" class="navigation">
+            <div class="main_nav">
+                <div class="container">
+                    <ul style="list-style: none;" class="nav_content">
+                        <li>
+                            <a href="https://thethao247.vn/#" title="Trang chủ Thể Thao 247" class="home-icon">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="relative " href="https://thethao247.vn/livescores/" title="Livescores">
+                                Livescores
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="relative " href="https://thethao247.vn/bong-da-tre-c329/" title="Bóng đá trẻ">
+                                Bóng đá trẻ
+                            </a>
+                        </li>
+
+                        <li id="asiad_hover">
+                            <a  class="relative " href="https://thethao247.vn/asiad" title="ASIAD ">
+                                ASIAD
+                            </a>
+                            <div id="asiad_hover_display" class="cate-child bg-3">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/asiad/bong-da" title="Bóng đá">
+                                            Bóng đá 
+                                        </a>
+                                        <a href="https://thethao247.vn/406-lich-thi-dau-bong-da-nam-asiad-2023-d295588.html" title="Lịch bóng đá nam">
+                                            Lịch bóng đá nam 
+                                        </a>
+                                        <a href="https://thethao247.vn/73-bang-tong-sap-huy-chuong-asiad-2023-d295903.html" title="Bảng tổng sắp">
+                                            Bảng tổng sắp 
+                                        </a>
+                                        <a href="https://thethao247.vn/asiad/esports" title="Esports">
+                                            Esports 
+                                        </a>
+                                        <a href="https://thethao247.vn/asiad/mon-khac" title="Môn khác">
+                                            Môn khác 
+                                        </a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a class="relative " href="https://thethao247.vn/champions-league-c13/" title="Cúp C1">
+                                Cúp C1
+                            </a>
+                        </li>
+
+                        <li id="football_vn">
+                            <a class="relative " href="https://thethao247.vn/bong-da-viet-nam-c1/" title="Bóng đá Việt Nam">
+                            Bóng đá Việt Nam
+                            </a>
+                            <div id="football_vn_display" class="cate-child bg-5">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/v-league-c15/" title="V-League">
+                                            V-League 
+                                        </a>
+                                        <a href="https://thethao247.vn/tuyen-quoc-gia-vn-c19/" title="Đội tuyển Quốc gia">
+                                            Đội tuyển Quốc gia 
+                                        </a>
+                                        <a href="https://thethao247.vn/bong-da-nu-viet-nam-c20/" title="Bóng Đá Nữ">
+                                            Bóng Đá Nữ
+                                        </a>
+                                        <a href="https://thethao247.vn/u23-asian-cup" title="U23 Châu Á">
+                                            U23 Châu Á 
+                                        </a>
+                                        <a href="https://thethao247.vn/u20-chau-a-c321/" title="U20 Châu Á">
+                                            U20 Châu Á 
+                                        </a>
+                                        <a href="https://thethao247.vn/aff-cup" title="AFF Cup 2022">
+                                            AFF Cup 2022 
+                                        </a>
+                                        <a href="https://thethao247.vn/noi-soi-bong-da-viet-c33/" title="Sự kiện">
+                                            Sự kiện 
+                                        </a>
+                                        <ul class="more_sub_cate">
+                                            <li id="more_view">
+                                                <a href="#">Xem thêm 
+                                                    <i style="color: inherit;" class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
+                                                <ul id="more_view_display" class="list_more_sub_cate">
+                                                    <li>
+                                                        <a href="https://thethao247.vn/aff-cup" title="AFF Cup 2021">
+                                                            AFF Cup 2021 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/u17-asian-cup" title="U17 Châu Á">
+                                                            U17 Châu Á 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/sea-games" title="SEA Games 32">
+                                                            SEA Games 32 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/aff-u19" title="AFF U19">
+                                                            AFF U19 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/aff-u16" title="AFF U16">
+                                                            AFF U16 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/futsal-c184/" title="Futsal">
+                                                            Futsal 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/u21-quoc-te-2020-c220/" title="U21 Quốc Gia">
+                                                            U21 Quốc Gia 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/u23-asian-cup" title="U23 Châu Á">
+                                                            U23 Châu Á 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/u19-quoc-gia-c225/" title="U19 Việt Nam">
+                                                            U19 Việt Nam 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/afc-cup-champions-league-c226/" title="AFC Cup - C1">
+                                                            AFC Cup - C1 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/thai-league-c227/" title="Thai League">
+                                                            Thai League 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/jleague-2021-c291/" title="J.League 2021">
+                                                            J.League 2021 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="football_world">
+                            <a class="relative " href="https://thethao247.vn/bong-da-quoc-te-c2/" title="Bóng đá quốc tế">
+                                Bóng đá quốc tế
+                            </a>
+                            <div id="football_world_display" class="cate-child bg-6">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/europa-league-c75/" title="Cúp C2 Europa League">
+                                            Cúp C2 Europa League 
+                                        </a>
+                                        <a href="/euro" title="Euro 2024">
+                                            Euro 2024 
+                                        </a>
+                                        <a href="https://thethao247.vn/bong-da-anh-c8/" title="Bóng đá Anh">
+                                            Bóng đá Anh 
+                                        </a>
+                                        <a href="https://thethao247.vn/uefa-nations-league-c323/" title="UEFA Nations League">
+                                            UEFA Nations League 
+                                        </a>
+                                        <a href="https://thethao247.vn/champions-league-c13/" title="Cúp C1">
+                                            Cúp C1 
+                                        </a>
+                                        <a href="https://thethao247.vn/bong-da-tbn-c9/" title="Bóng đá Tây Ban Nha">
+                                            Bóng đá Tây Ban Nha 
+                                        </a>
+                                        <a href="https://thethao247.vn/bong-da-y-c10/" title="Bóng đá Ý">
+                                            Bóng đá Ý 
+                                        </a>
+                                        <ul class="more_sub_cate">
+                                            <li id="football_world_more_view">
+                                                <a href="#">
+                                                    Xem thêm 
+                                                    <i style="color: inherit;" class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
+                                                <ul id="football_world_more_view_display" class="list_more_sub_cate">
+                                                    <li>
+                                                        <a href="https://thethao247.vn/bong-da-phap-c12/" title="Bóng đá Pháp">
+                                                            Bóng đá Pháp 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/cac-giai-bong-da-quoc-te-khac-c34/" title="Các giải khác">
+                                                            Các giải khác 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/world-cup" title="World Cup 2022">
+                                                            World Cup 2022 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/europa-league-c75/" title="Cúp C2 Europa League">
+                                                            Cúp C2 Europa League 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/confederations-cup-c84/" title="Confederations Cup">
+                                                            Confederations Cup 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/copa-america-c186/" title="Copa America 2024">
+                                                            Copa America 2024 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/icc-international-champions-cup-c216/" title="ICC 2019">
+                                                            ICC 2019 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/danh-thu-c221/" title="Danh thủ">
+                                                            Danh thủ 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/concacaf-gold-cup-c224/" title="CONCACAF Gold Cup">
+                                                            CONCACAF Gold Cup 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/nhan-dinh-bong-da-c288/" title="Nhận định bóng đá ">
+                                                            Nhận định bóng đá 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/bong-da-duc-c11/" title="Bóng đá Đức">
+                                                            Bóng đá Đức 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a class="relative " href="https://thethao247.vn/tin-chuyen-nhuong-c14/" title="Chuyển nhượng">
+                                Chuyển nhượng
+                            </a>
+                        </li>
+
+                        <li id="sport_nav_bar">
+                            <a class="relative " href="https://thethao247.vn/the-thao-tong-hop-c5/" title="Thể Thao">
+                                Thể Thao
+                            </a>
+                            <div id="sport_nav_bar_display" class="cate-child bg-0">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/bong-chuyen-c45/" title="Bóng chuyền">
+                                            Bóng chuyền 
+                                        </a>
+                                        <a href="https://thethao247.vn/quan-vot-tennis-c4/" title="Tennis - Quần vợt">
+                                            Tennis - Quần vợt 
+                                        </a>
+                                        <a href="https://thethao247.vn/bong-ro-c43/" title="Bóng rổ">
+                                            Bóng rổ 
+                                        </a>
+                                        <a href="https://thethao247.vn/vo-thuat-c228/" title="Võ thuật">
+                                            Võ thuật 
+                                        </a>
+                                        <a href="https://thethao247.vn/the-gioi-phui-c192/" title="Thế giới Phủi">
+                                            Thế giới Phủi 
+                                        </a>
+                                        <a href="https://thethao247.vn/cac-mon-khac-c46/" title="Các môn khác">
+                                            Các môn khác 
+                                        </a>
+                                        <a href="https://thethao247.vn/mma-c317/" title="MMA">
+                                            MMA 
+                                        </a>
+                                        <ul class="more_sub_cate">
+                                            <li id="sport_nav_bar_more_view">
+                                                <a href="#">
+                                                    Xem thêm 
+                                                    <i style="color: inherit;" class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
+                                                <ul style="background: #0072bb;" id="sport_nav_bar_more_view_display" class="list_more_sub_cate">
+                                                    <li>
+                                                        <a href="https://thethao247.vn/golf-c42/" title="Golf">
+                                                            Golf 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/cau-long-c44/" title="Cầu lông">
+                                                            Cầu lông 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/doc-gia-viet-c47/" title="Độc giả viết">
+                                                            Độc giả viết 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/nhan-vat-su-kien-the-thao-c121/" title="Nhân vật &amp; Sự kiện">
+                                                            Nhân vật &amp; Sự kiện 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/chay-bo-c287/" title="Chạy bộ">
+                                                            Chạy bộ 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/vo-thuat-c228/" title="Võ thuật">
+                                                            Võ thuật 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="esports_nav">
+                            <a class="relative " href="https://thethao247.vn/esports-c180/" title="Esports">
+                                Esports
+                            </a>
+                            <div id="esports_nav_display" class="cate-child bg-1">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/lien-minh-huyen-thoai-c181/" title="LMHT">
+                                            LMHT 
+                                        </a>
+                                        <a href="https://thethao247.vn/dau-truong-chan-ly-c303/" title="Đấu Trường Chân Lý">
+                                            Đấu Trường Chân Lý 
+                                        </a>
+                                        <a href="https://thethao247.vn/lmht-toc-chien-c289/" title="LMHT Tốc Chiến">
+                                            LMHT Tốc Chiến 
+                                        </a>
+                                        <a href="https://thethao247.vn/valorant-c305/" title="Valorant">
+                                            Valorant 
+                                        </a>
+                                        <a href="https://thethao247.vn/genshin-impact-c306/" title="Genshin Impact">
+                                            Genshin Impact 
+                                        </a>
+                                        <a href="https://thethao247.vn/cosplay-c307/" title="Cosplay">
+                                            Cosplay 
+                                        </a>
+                                        <a href="https://thethao247.vn/pubg-c236/" title="PUBG">
+                                            PUBG 
+                                        </a>
+                                        <ul class="more_sub_cate">
+                                            <li id="esports_nav_more_view">
+                                                <a href="#">
+                                                    Xem thêm 
+                                                    <i style="color: inherit;" class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
+                                                <ul id="esports_nav_more_view_display" class="list_more_sub_cate">
+                                                    <li>
+                                                        <a href="https://thethao247.vn/Giftcode-c304/" title="Giftcode">
+                                                            Giftcode 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/lien-quan-mobile-c241/" title="Liên Quân Mobile">
+                                                            Liên Quân Mobile 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/fifa-online-3-c182/" title="FIFA Online 4">
+                                                            FIFA Online 4 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/dota-2-c244/" title="Dota 2">
+                                                            Dota 2 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/pes-c280/" title="PES">
+                                                            PES 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="car_nav_bar">
+                            <a class="relative " href="https://thethao247.vn/xe-co-c191/" title="Xe">
+                                Xe
+                            </a>
+                            <div id="car_nav_bar_display" class="cate-child bg-2">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/dua-xe-c41/" title="Đua xe">
+                                            Đua xe 
+                                        </a>
+                                        <a href="https://thethao247.vn/o-to-c200/" title="Ô tô">
+                                            Ô tô 
+                                        </a>
+                                        <a href="https://thethao247.vn/xe-may-c201/" title="Xe máy">
+                                            Xe máy 
+                                        </a>
+                                        <a href="https://thethao247.vn/bang-gia-xe-c202/" title="Bảng giá xe">
+                                            Bảng giá xe 
+                                        </a>
+                                        <a href="https://thethao247.vn/tu-van-c203/" title="Tư vấn">
+                                            Tư vấn 
+                                        </a>
+                                        <a href="https://thethao247.vn/danh-gia-xe-c204/" title="Đánh giá xe">
+                                            Đánh giá xe 
+                                        </a>
+                                        <a href="https://thethao247.vn/kinh-nghiem-xe-co-c205/" title="Kinh nghiệm xe cộ">
+                                            Kinh nghiệm xe cộ 
+                                        </a>
+                                        <ul class="more_sub_cate">
+                                            <li id="car_nav_bar_more_view">
+                                                <a href="#">
+                                                    Xem thêm 
+                                                    <i style="color: inherit;" class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
+                                                <ul id="car_nav_bar_more_view_display" class="list_more_sub_cate">
+                                                    <li>
+                                                        <a href="https://thethao247.vn/camera-hanh-trinh-c206/" title="Camera Hành Trình">
+                                                            Camera Hành Trình 
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://thethao247.vn/dua-xe-f1-2020-c285/" title="Đua xe F1 2022">
+                                                            Đua xe F1 2022 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a class="relative " href="https://thethao247.vn/list-c261/" title="Khỏe &amp; Đẹp">
+                                    Khỏe &amp; Đẹp
+                            </a>
+                        </li>
+
+                        <li id="trend_nav_bar">
+                            <a class="relative " href="https://thethao247.vn/can-biet-c123/" title="Xu hướng">
+                                Xu hướng
+                            </a>
+                            <div id="trend_nav_bar_display" class="cate-child bg-4">
+                                <div class="container">
+                                    <nav>
+                                        <a href="https://thethao247.vn/suc-khoe-the-thao-c124/" title="Sức khỏe  &amp; thể thao">
+                                            Sức khỏe &amp; thể thao 
+                                        </a>
+                                        <a href="https://thethao247.vn/dia-diem-the-thao-c125/" title="Địa điểm &amp; thể thao">
+                                            Địa điểm &amp; thể thao 
+                                        </a>
+                                        <a href="https://thethao247.vn/shop-the-thao-c126/" title="Shop Thể thao">
+                                            Shop Thể thao 
+                                        </a>
+                                        <a href="https://thethao247.vn/cong-nghe-so-c127/" title="Công nghệ số">
+                                            Công nghệ số 
+                                        </a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="topsearch">
+                        <a href="#" class="btn_search" onclick="searchClick();">
+                            <i id="exit_search" class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+                        </a>
+                    </div>
+
+                    <input type="checkbox" id="menu">
+
+                    <label for="menu" class="icon_menu menu_full">
+                        <div class="menu"></div>
+                    </label>
+                    
+                    <div class="show_menu_full clwhite">
+                        <div class="container">
+                            <div class="d-flex">
+                                <div class="col83per">
+                                    <div class="d-flex">
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Bóng đá Việt Nam
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/u20-chau-a-c321/" title="U20 Châu Á">
+                                                U20 Châu Á </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/v-league-c15/" title="V-League">
+                                                V-League </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/tuyen-quoc-gia-vn-c19/" title="Đội tuyển Quốc gia">
+                                                Đội tuyển Quốc gia </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/u19-quoc-gia-c225/" title="U19 Việt Nam">
+                                                U19 Việt Nam </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Ngoại hạng Anh
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/bong-da-anh-c8/" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/lich-thi-dau-bong-da/premier-league-gd9.html" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bang-xep-hang-bong-da/premier-league-gd9.html" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Serie A
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                    <li>
+                                                    <a href="https://thethao247.vn/bong-da-y-c10/" title="Tin tức">
+                                                    Tin tức </a>
+                                                    </li>
+                                                    <li>
+                                                    <a href="https://thethao247.vn/lich-thi-dau-bong-da/serie-a-gd15.html" title="Lịch thi đấu">
+                                                    Lịch thi đấu </a>
+                                                    </li>
+                                                    <li>
+                                                    <a href="https://thethao247.vn/bang-xep-hang-bong-da/serie-a-gd15.html" title="Bảng xếp hạng">
+                                                    Bảng xếp hạng </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Pháp
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                        <li>
+                                                        <a href="https://thethao247.vn/bong-da-phap-c12/" title="Tin tức">
+                                                        Tin tức </a>
+                                                        </li>
+                                                        <li>
+                                                        <a href="https://thethao247.vn/lich-thi-dau-bong-da/ligue-1-gd10.html" title="Lịch thi đấu">
+                                                        Lịch thi đấu </a>
+                                                        </li>
+                                                        <li>
+                                                        <a href="https://thethao247.vn/bang-xep-hang-bong-da/ligue-1-gd10.html" title="Bảng xếp hạng">
+                                                        Bảng xếp hạng </a>
+                                                        </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Tây Ban Nha
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/bong-da-tbn-c9/" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/lich-thi-dau-bong-da/la-liga-gd14.html" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bang-xep-hang-bong-da/la-liga-gd14.html" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Cúp C1 châu Âu
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/champions-league-c13/" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/lich-thi-dau-bong-da/uefa-champions-league-gd3.html" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bang-xep-hang-bong-da/uefa-champions-league-gd3.html" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Cúp C2 Europa League
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/europa-league-c75/" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/lich-thi-dau-bong-da/uefa-europa-league-gd402.html" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bang-xep-hang-bong-da/europa-league-gd402.html" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                World Cup
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/world-cup" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="/world-cup/lich-thi-dau" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/world-cup/bang-xep-hang-bong-da" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Euro
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/euro" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/euro/lich-thi-dau-bong-da" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/euro/bang-xep-hang-bong-da" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Đức
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/bong-da-duc-c11/" title="Tin tức">
+                                                Tin tức </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/lich-thi-dau-bong-da/bundesliga-gd13.html" title="Lịch thi đấu">
+                                                Lịch thi đấu </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bang-xep-hang-bong-da/bundesliga-gd13.html" title="Bảng xếp hạng">
+                                                Bảng xếp hạng </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Nhận định bóng đá
+                                            </div>
+                                        </div>
+                                        <div class="col20per mb-25">
+                                            <div class="title_menu_full">
+                                                Thể Thao
+                                            </div>
+                                            <ul class="list_show_menu_full">
+                                                <li>
+                                                <a href="https://thethao247.vn/quan-vot-tennis-c4/" title="Tennis - Quần vợt">
+                                                Tennis - Quần vợt </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bong-ro-c43/" title="Bóng rổ">
+                                                Bóng rổ </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/cau-long-c44/" title="Cầu lông">
+                                                Cầu lông </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/bong-chuyen-c45/" title="Bóng chuyền">
+                                                Bóng chuyền </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://thethao247.vn/vo-thuat-c228/" title="Võ thuật">
+                                                Võ thuật </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col16per">
+                                    <div class="title_menu_full">Tiện ích bóng đá</div>
+                                        <ul class="list_utility">
+                                            <li>
+                                            <a href="/livescores/" title="Livescores">
+                                            <i class="fa-solid fa-video"></i> Livescore </a>
+                                            </li>
+                                            <li>
+                                            <a href="/lich-thi-dau-bong-da/" title="Lịch thi đấu bóng đá">
+                                            <i class="fa-solid fa-calendar-days"></i> Lịch thi đấu </a>
+                                            </li>
+                                            <li>
+                                            <a href="/ket-qua-bong-da-truc-tuyen/" title="Kết quả bóng đá">
+                                            <i class="fa-solid fa-medal"></i> Kết quả </a>
+                                            </li>
+                                            <li class="news-24h">
+                                            <a href="/bang-xep-hang-bong-da/" title="Bảng xếp hạng bóng đá">
+                                            <i class="fa-solid fa-ranking-star"></i> BXH </a>
+                                            </li>
+                                            <li class="tructiep-li">
+                                            <a href="/truc-tiep-bong-da-vip/" title="Trực tiếp bóng đá">
+                                            <img src="https://thethao247.vn/frontend/images/ico_tructiep.svg" class="tructiep-icon loading" alt="Trực tiếp"> Trực tiếp </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="box_search" id="box_search">
+            <div class="container">
+                <div class="relative">
+                    <form style="height: 50px;display: flex;" action="">
+                        <input class="input_search" type="text" placeholder="ĐƯỢC CẢI TIẾN BỞI GOOGLE">
+                        <button style="cursor: pointer;height: 30px;width: 30px; margin-top: 5px;margin-left: 15px;padding: 5px;border: 1px solid #4d90fe;background-color: #4d90fe;border-radius: 50%;">
+                            <i style="color: white;" class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- The de viet noi dung cua trang web -->
+    <!-- Phan body cua trang web se duoc code bat dau tu day -------------------------------------------------->
+    <div style="height: auto  !important;" class="main-container">
+        <main style="height: auto !important;">
+            <div class="container bg-white p-15">
+                <h1 style="margin-bottom: 18px;">
+                    Bắt đầu code phần body tại dòng 838 với class container <br> Nội dung bên dưới là tạo độ dài cho trang để check nav bar sticky
+                </h1>
+                <p style="font-family: 'Times New Roman', Times, serif;">
+                    Հայերեն Shqip ‫العربية Български Català 中文简体 Hrvatski Česky Dansk Nederlands English Eesti Filipino Suomi Français ქართული Deutsch Ελληνικά ‫עברית हिन्दी Magyar Indonesia Italiano Latviski Lietuviškai македонски Melayu Norsk Polski Português Româna Pyccкий Српски Slovenčina Slovenščina Español Svenska ไทย Türkçe Українська Tiếng Việt Lorem Ipsum "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..." What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. Where can I get some? There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. 5 paragraphs words bytes lists Start with 'Lorem ipsum dolor sit amet...' Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help. There is a set of mock banners available here in three colours and in a range of standard banner sizes: BannersBannersBanners Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support. Donate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF NodeJS Python Interface GTK Lipsum Rails .NET Groovy The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?" 1914 translation by H. Rackham "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?" Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." 1914 translation by H. Rackham "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains." help@lipsum.com Privacy Policy · Do Not Sell My Personal Information · Change Consent freestar 1 Freestar
+                </p>
+            </div>
+        </main>
+        
+    </div>
+
+    <!-- Phan footer cua trang web --------------------------------------------------------------->
+
+    <footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="top-footer-content">
+                    <a href="/" class="logo-footer p-15-0" title="Thể thao 247">
+                        <img src="https://thethao247.vn/frontend/images/logo_mobile_footer.png" width="170" alt="Thể thao 247">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-footer">
+            <div class="container">
+                <div class="menu-footer-content">
+                    <div class="left">
+                        <div class="list_bot_cat">
+                            <p class="title_ver_com ">
+                                Tiện ích bóng đá
+                            </p>
+                            <ul>
+                                <li><a href="/lich-thi-dau-bong-da/" title="Lịch thi đấu bóng đá">Lịch thi đấu bóng đá</a></li>
+                                <li><a href="/ket-qua-bong-da-truc-tuyen/" title="Kết quả bóng đá">Kết quả bóng đá</a></li>
+                                <li><a href="/bang-xep-hang-bong-da/" title="Bảng xếp hạng">Bảng xếp hạng</a></li>
+                                <li><a href="/truc-tiep-bong-da-vip/" title="Trực tiếp bóng đá">Trực tiếp bóng đá</a></li>
+                                <li><a href="/livescores/" title="Livescore">Livescore</a></li>
+                            </ul>
+                        </div>
+                        <div class="list_bot_cat">
+                            <p class="title_ver_com ">
+                                Giải đấu
+                            </p>
+                            <ul>
+                                <li><a href="/v-league-c15/" title="V-League">V-League</a></li>
+                                <li><a href="/bong-da-anh-c8/" title="Bóng đá Anh">Bóng đá Anh</a></li>
+                                <li><a href="/bong-da-y-c10/" title="Bóng đá Ý">Bóng đá Ý</a></li>
+                                <li><a href="/bong-da-tbn-c9/" title="Bóng đá Tây Ban Nha">Bóng đá Tây Ban Nha</a></li>
+                                <li><a href="/bong-da-duc-c11/" title="Bóng đá Đức">Bóng đá Đức</a></li>
+                                <li><a href="/bong-da-phap-c12/" title="Bóng đá Pháp">Bóng đá Pháp</a></li>
+                                <li><a href="/champions-league-c13/" title="Cúp C1">Cúp C1</a></li>
+                                <li><a href="/europa-league-c75/" title="Europa League">Europa League</a></li>
+                                <li><a href="/asiad" title="ASIAD 19">ASIAD 19</a></li>
+                                <li><a href="/euro" title="Vòng loại Euro">Vòng loại Euro</a></li>
+                                <li><a href="/world-cup" title="Vòng loại World Cup">Vòng loại World Cup</a></li>
+                            </ul>
+                        </div>
+                        <div class="list_bot_cat">
+                            <p class="title_ver_com ">
+                                Thể Thao
+                            </p>
+                            <ul>
+                                <li><a href="//thethao247.vn/quan-vot-tennis-c4/" title="Quần vợt">Quần vợt</a></li>
+                                <li><a href="//thethao247.vn/cau-long-c44/" title="Cầu lông">Cầu lông</a></li>
+                                <li><a href="//thethao247.vn/dua-xe-c41/" title="Đua xe">Đua xe</a></li>
+                                <li><a href="//thethao247.vn/golf-c42/" title="Golf">Golf</a></li>
+                                <li><a href="//thethao247.vn/bong-chuyen-c45/" title="Bóng chuyền">Bóng chuyền</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="list_bot_cat">
+                            <p class="title_ver_com ">
+                                Câu lạc bộ
+                            </p>
+                            <ul>
+                                <li><a href="/livescores/team/manchester-utd/ppjDR086/squad/" title="Manchester United">Manchester United</a></li>
+                                <li><a href="/livescores/team/chelsea/4fGZN2oK/squad/" title="Chelsea">Chelsea</a></li>
+                                <li><a href="/bong-da-anh-c8/" title="Barcelona">Barcelona</a></li>
+                                <li><a href="/livescores/team/real-madrid/W8mj7MDD/squad/" title="Real Madrid">Real Madrid</a></li>
+                                <li><a href="/livescores/team/juventus/C06aJvIB/squad/" title="Juventus">Juventus</a></li>
+                                <li><a href="/livescores/team/liverpool/lId4TMwf/squad/" title="Liverpool">Liverpool</a></li>
+                                <li><a href="/livescores/team/manchester-city/Wtn9Stg0/squad/" title="Manchester City">Manchester City</a></li>
+                                <li><a href="/livescores/team/arsenal/hA1Zm19f/squad/" title="Arsenal">Arsenal</a></li>
+                                <li><a href="/livescores/team/bayern-munich/nVp0wiqd/squad/" title="Bayern Munich">Bayern Munich</a></li>
+                                <li><a href="/livescores/team/ha-noi-fc/x2LRDuqP/squad/" title="Hà Nội FC">Hà Nội FC</a></li>
+                                <li><a href="/livescores/team/hagl/4GHm8BQg/squad/" title="HAGL">HAGL</a></li>
+                            </ul>
+                        </div>
+                        <div class="list_bot_cat">
+                            <p class="title_ver_com ">Cầu thủ</p>
+                            <ul>
+                                <li><a href="/ronaldo-tag/" title="LiveScore">Ronaldo</a></li>
+                                <li><a href="/messi-tag/" title="Messi">Messi</a></li>
+                                <li><a href="/neymar-tag/" title="Neymar">Neymar</a></li>
+                                <li><a href="/quang-hai-tag/" title="Quang Hải">Quang Hải</a></li>
+                                <li><a href="/doan-van-hau-tag/" title="Đoàn Văn Hậu">Đoàn Văn Hậu</a></li>
+                                <li><a href="/nguyen-cong-phuong-tag/" title="Nguyễn Công Phượng">Nguyễn Công Phượng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tag-footer">
+            <div class="container">
+                <div class="pkg">
+                    <a href="/the-thao-24h.html" class="key_footer_tag" target="_blank" rel="noopener" title="Thể Thao 24h">Thể Thao 24h</a>
+                    <a class="key_footer_tag" target="_blank" href="https://www.techz.vn/" rel="noopener" title="Techz.vn">Công nghệ</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-footer">
+            <div class="container">
+                <div class="info-footer-content">
+                    <div class="col_app_com">
+                        <p class="title_ver_com ">
+                            App Mobile
+                        </p>
+                        <ul class="list_ver_com" id="dowload_footer">
+                            <li>
+                            <a href="https://apps.apple.com/app/id1485962204" target="_blank" rel="nofollow noopener" class="icon_appstore">
+                            <i class="fab fa-apple"></i>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://play.google.com/store/apps/details?id=vn.thethao247.android&amp;hl=vi" target="_blank" rel="nofollow noopener" class="icon_appstore icon_android">
+                            <i class="fab fa-android"></i>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col_ver_com">
+                        <p class="title_ver_com ">
+                            Liên hệ
+                        </p>
+                        <ul class="list_ver_com">
+                            <li><a href="/gioi-thieu-p1.html" rel="nofollow">Giới thiệu</a></li>
+                            <li><a href="/chinh-sach-bao-mat-p5.html" rel="nofollow">Chính sách bảo mật</a></li>
+                            <li><a href="/bao-gia.html" rel="nofollow">Quảng cáo</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col_ver_com">
+                        <p class="title_ver_com ">
+                            Social
+                        </p>
+                        <ul class="list_ver_com">
+                            <li>
+                            <a href="https://www.youtube.com/channel/UCxgM0479aF4tTYk2aPDn39Q" title="Youtube Thể Thao 247" target="_blank" rel="nofollow noopener">
+                                <i class="fa-brands fa-youtube fa-lg"></i> Youtube
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://oa.zalo.me/thethao247" title="Zalo Thể Thao 247" target="_blank" rel="nofollow noopener">
+                                <i class="fa-brands fa-instalod fa-lg"></i> Zalo
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.facebook.com/thethao247.vn" title="Facebook Thể Thao 247" target="_blank" rel="nofollow noopener">
+                                <i class="fa-brands fa-square-facebook fa-lg"></i> Facebook
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://twitter.com/thethao247vn" title="Twitter Thể Thao 247" target="_blank" rel="nofollow noopener">
+                                <i class="fa-brands fa-square-twitter fa-lg"></i> Twitter
+                            </a>
+                            </li>
+                            <li>
+                            <a href="/rss.html" rel="nofollow" title="RSS Thể Thao 247">
+                                <i class="fa-solid fa-square-rss fa-lg"></i> RSS
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.tiktok.com/@thethao247.vn" rel="nofollow noopener" title="Tiktok Thể Thao 247" target="_blank">
+                            <svg viewBox="0 0 291.72499821636245 291.1" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M219.51 291.1H71.58C32.05 291.1 0 259.05 0 219.51V71.58C0 32.05 32.05 0 71.58 0h147.93c39.53 0 71.58 32.05 71.58 71.58v147.93c.01 39.54-32.04 71.59-71.58 71.59z"></path><g fill="#25f4ee"><path d="M120.96 123.89v-8.8a64.83 64.83 0 0 0-9.23-.79c-29.93-.06-56.42 19.33-65.41 47.87s1.62 59.62 26.18 76.71c-25.77-27.58-24.3-70.83 3.28-96.6a68.425 68.425 0 0 1 45.18-18.39z"></path><path d="M122.62 223.53c16.73-.02 30.48-13.2 31.22-29.92V44.44h27.25a50.7 50.7 0 0 1-.79-9.44h-37.27v149.02c-.62 16.8-14.41 30.11-31.22 30.14-5.02-.04-9.97-1.28-14.42-3.6a31.276 31.276 0 0 0 25.23 12.97zM231.98 95.05v-8.29c-10.03 0-19.84-2.96-28.19-8.51a51.63 51.63 0 0 0 28.19 16.8z"></path></g><path d="M203.8 78.26a51.301 51.301 0 0 1-12.76-33.89h-9.95a51.564 51.564 0 0 0 22.71 33.89zM111.73 151.58c-17.28.09-31.22 14.17-31.13 31.45a31.293 31.293 0 0 0 16.71 27.53c-10.11-13.96-6.99-33.48 6.97-43.6a31.191 31.191 0 0 1 18.34-5.93c3.13.04 6.24.53 9.23 1.45v-37.93c-3.05-.46-6.14-.7-9.23-.72h-1.66v28.84c-3.01-.82-6.12-1.18-9.23-1.09z" fill="#fe2c55"></path><path d="M231.98 95.05v28.84a88.442 88.442 0 0 1-51.69-16.8v75.77c-.08 37.81-30.75 68.42-68.56 68.42a67.816 67.816 0 0 1-39.22-12.4c25.73 27.67 69.02 29.25 96.7 3.52a68.397 68.397 0 0 0 21.83-50.09v-75.56a88.646 88.646 0 0 0 51.76 16.58V96.21c-3.64-.02-7.26-.4-10.82-1.16z" fill="#fe2c55"></path><path d="M180.29 182.87V107.1a88.505 88.505 0 0 0 51.76 16.58V94.84a51.73 51.73 0 0 1-28.26-16.58 51.634 51.634 0 0 1-22.71-33.89h-27.25v149.24c-.71 17.27-15.27 30.69-32.54 29.99a31.278 31.278 0 0 1-24.06-12.9c-15.29-8.05-21.16-26.97-13.11-42.26a31.274 31.274 0 0 1 27.53-16.71c3.13.03 6.24.51 9.23 1.44V123.9c-37.74.64-67.82 32.19-67.18 69.93a68.353 68.353 0 0 0 18.73 45.86 67.834 67.834 0 0 0 39.29 11.61c37.82-.01 68.49-30.62 68.57-68.43z" fill="#fff"></path></svg>
+                            Tiktok
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col_info_com">
+                        <p class="title_ver_com "><strong>CÔNG TY CP DỊCH VỤ TRUYỀN THÔNG THỂ THAO 247</strong></p>
+                        <p>Người chịu trách nhiệm quản lý nội dung: <strong>Nguyễn Huy Hoàn</strong></p>
+                        <p>Giấy phép trang tin điện tử tổng hợp số: <strong>1749/GP-TTĐT</strong> do Sở Thông tin và Truyền
+                        thông Hà Nội cấp ngày 28/04/2017
+                        </p>
+                        <p><strong>Địa chỉ giao dịch:</strong> Căn 12, Mộc Lan 6 (ML6-12), khu đô thị Vinhomes Green Bay,
+                        phường Mễ Trì, quận Nam Từ Liêm, Hà Nội</p>
+                        <p><strong>Hotline:</strong> <a href="tel:0847100247">0847 100 247</a> / <strong>Email:</strong>
+                        <a href="mailto:contact@thethao247.vn">contact@thethao247.vn</a></p>
+                        <p><strong>Truyền thông và Quảng cáo:</strong> <a href="tel:0985233950">0985 233 950</a></p>
+                        <p style="color:#a9a9a9"><strong>Trụ sở chính:</strong> Tầng 4, Tòa tháp Ngôi Sao - Star Tower,
+                        đường Dương Đình Nghệ - Phường Yên Hòa - Quận Cầu Giấy - Hà Nội</p>
+                        <a href="https://www.dmca.com/Protection/Status.aspx?ID=d31a2a19-f919-485f-93b2-8697b3a6ff75&amp;refurl=https://thethao247.vn/" target="_blank" rel="nofollow noopener" title="DMCA.com Protection Status" class="dmca-badge"> <img style="margin-left: -5px" src="https://images.dmca.com/Badges/dmca-badge-w250-5x1-06.png?ID=d31a2a19-f919-485f-93b2-8697b3a6ff75" alt="DMCA.com Protection Status"></a>
+                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

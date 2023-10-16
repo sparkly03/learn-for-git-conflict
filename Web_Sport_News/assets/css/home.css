@@ -1,0 +1,12 @@
+.ad_img_title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ad_title {
+    width: 731px;
+    margin-left: 15px;
+}
+.ad_more_info {
+    display: flex;
+}
