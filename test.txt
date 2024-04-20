@@ -12,4 +12,6 @@ sfss
 
 
 xem nao xem nao
-s
+s may xoa folder roi ha
+
+luu o day khong duoc xoa foler 
